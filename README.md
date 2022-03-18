@@ -1,13 +1,13 @@
 # Next-Gen JavaScript - Summary
 
-##let & const
+## let & const
 Read more about let : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
 Read more about const : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
 
 `let`  and `const`  basically replace `var` . You use `let`  instead of `var`  and `const`  instead of `var`  if you plan on never re-assigning this "variable" (effectively turning it into a constant therefore).
 
-##ES6 Arrow Functions
+## ES6 Arrow Functions
 Read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 Arrow functions are a different way of creating functions in JavaScript. Besides a shorter syntax, they offer advantages when it comes to keeping the scope of the this  keyword (see here).
@@ -53,7 +53,7 @@ const returnMe = name => {
 }
 ```
 
-##Exports & Imports
+## Exports & Imports
 In React projects (and actually in all modern JavaScript projects), you split your code across multiple JavaScript files - so-called modules. You do this, to keep each file/ module focused and manageable.
 
 To still access functionality in another file, you need export  (to make it available) and import  (to get access) statements.
@@ -87,7 +87,7 @@ import * as upToYou from './path/to/file.js';
 
 upToYou  is - well - up to you and simply bundles all exported variables/functions in one JavaScript object. For example, if you `export const someData = ... ` (`/path/to/file.js` ) you can access it on `upToYou`  like this:` upToYou.someData` .
 
-##Classes
+## Classes
 Classes are a feature which basically replace constructor functions and prototypes. You can define blueprints for JavaScript objects with them. 
 
 Like this:
@@ -162,7 +162,7 @@ person.printMyName();
 console.log(person.species); // prints 'human'
 ```
 
-##Spread & Rest Operator
+## Spread & Rest Operator
 The spread and rest operators actually use the same syntax: `...` 
 
 Yes, that is the operator - just three dots. It's usage determines whether you're using it as the spread or rest operator.
@@ -198,7 +198,7 @@ newObject  would then be
 
 The spread operator is extremely useful for cloning arrays and objects. Since both are reference types (and not primitives), copying them safely (i.e. preventing future mutation of the copied original) can be tricky. With the spread operator you have an easy way of creating a (shallow!) clone of the object or array. 
 
-##Destructuring
+## Destructuring
 Destructuring allows you to easily access the values of arrays or objects and assign them to variables.
 
 Here's an example for an array:
