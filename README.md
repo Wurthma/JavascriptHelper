@@ -1,4 +1,4 @@
-#Next-Gen JavaScript - Summary
+# Next-Gen JavaScript - Summary
 
 ##let & const
 Read more about let : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
